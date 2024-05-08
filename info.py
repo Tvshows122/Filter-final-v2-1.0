@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'paisakamalo.in'))
-STREAM_API = (environ.get('STREAM_API', 'de3a6a370de49290db4eea4d1133dd4c189e6579'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'moneykamalo.com'))
+STREAM_API = (environ.get('STREAM_API', '6babbc84bc7c81dbe6f0cbf95185cbbf035e89d0'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/+_JMZkD2Rej01NTc1'))
 
 # Admins, Channels & Users
@@ -62,15 +62,15 @@ VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( F
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/+_JMZkD2Rej01NTc1') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'paisakamalo.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'de3a6a370de49290db4eea4d1133dd4c189e6579')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'moneykamalo.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '6babbc84bc7c81dbe6f0cbf95185cbbf035e89d0')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))  # else--> True
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+ABt_v5G6AbQ1Yjhl')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+t4JOpsND9c44Mzll')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+exEtZ7czmoU0OGRl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+DCJFFCZnc54yNGJl')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+_JMZkD2Rej01NTc1') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : INFINITY')

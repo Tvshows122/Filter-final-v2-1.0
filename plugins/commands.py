@@ -358,11 +358,9 @@ async def start(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton('📁 ᴅᴏᴡɴʟᴏᴀᴅ 📁', url=g)
-                ], [
+                ],[
                     InlineKeyboardButt'⚡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⚡', url=await get_tutorial(chat_id))
-                ]
-                    
-                ]
+                ] ]
             )
         )
         await asyncio.sleep(600)
